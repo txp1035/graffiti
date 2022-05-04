@@ -1,0 +1,19 @@
+{
+  "name": "graffiti",
+  "version": "1.0.0",
+  "description": "This is a github calendar doodle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/txp1035/graffiti.git"
+  },
+  "author": "txp1035",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/txp1035/graffiti/issues"
+  },
+  "homepage": "https://github.com/txp1035/graffiti#readme"
+}
