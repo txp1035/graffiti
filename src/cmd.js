@@ -19,6 +19,7 @@ function createDateArr(startTime, endTime) {
   }
 }
 createDateArr(startTime, endTime);
+function createRandomNumber() {}
 /**
  * 执行区域
  */
