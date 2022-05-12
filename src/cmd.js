@@ -43,4 +43,8 @@ function createRandomNumber() {
 createRandomNumber();
 /**
  * 执行区域
+ * 检查是否存在test目录，存在就删除再创建，不存在就创建
+ * 在test目录初始化git
+ * 在test目录进行git提交实验
+ * 使用软件模拟出github测试效果
  */
