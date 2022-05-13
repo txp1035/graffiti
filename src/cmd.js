@@ -1,4 +1,7 @@
 const dayjs = require('dayjs');
+const fs = require('fs-extra');
+const path = require('path');
+const child_process = require('child_process');
 /**
  * 设置区域
  * 开始时间
@@ -40,7 +43,7 @@ function createRandomNumber() {
   console.log(num);
   return num;
 }
-createRandomNumber();
+// createRandomNumber();
 /**
  * 执行区域
  * 检查是否存在test目录，存在就删除再创建，不存在就创建
@@ -48,3 +51,9 @@ createRandomNumber();
  * 在test目录进行git提交实验
  * 使用软件模拟出github测试效果
  */
+const testPath = path.join(__dirname, '/test');
+// 确保目录为空。如果目录不为空，则删除目录内容。如果该目录不存在，则创建该目录。目录本身不会被删除。
+fs.emptyDirSync(testPath);
+child_process.execSync('git init', { cwd: testPath });
+// fs.rm;
+// fs.mkdirSync(testPath);

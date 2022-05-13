@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/txp1035/graffiti#readme",
   "dependencies": {
-    "dayjs": "^1.11.2"
+    "dayjs": "^1.11.2",
+    "fs-extra": "^10.1.0"
   }
 }
