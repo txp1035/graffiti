@@ -1,4 +1,8 @@
 #.gitignore
+# add other
+.DS_Store
+src/test
+
 # Logs
 logs
 *.log
@@ -103,6 +107,3 @@ dist
 
 # TernJS port file
 .tern-port
-
-# add other
-.DS_Store
